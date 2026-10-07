@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
+<img src="{{ '/images/profile.png' | relative_url }}" class="floatpic" alt="Hang Chen">
 
 I am **Hang Chen (陈杭)**, an undergraduate student at [Fuzhou University](https://www.fzu.edu.cn/), majoring in **Electronic Information Engineering** (Class of 2024).
 
