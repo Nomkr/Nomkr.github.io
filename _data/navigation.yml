@@ -1,4 +1,13 @@
 # 顶部导航栏顺序。改这里即改顶部菜单；删除某条即不在顶部显示。
 main:
-  - title: "Home"
+  - title: "MAIN"
     url: /
+
+  - title: "RESEARCH"
+    url: /research/
+
+  - title: "AWARDS"
+    url: /awards/
+
+  - title: "BLOGS"
+    url: https://hangchen.pages.dev/
