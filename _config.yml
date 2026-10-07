@@ -23,7 +23,7 @@ repository               : "Nomkr/Nomkr.github.io"   # TODO: 改成 "<你的GitH
 author:
   # Biographic information
   avatar           : "profile.png"    # 头像图片：替换 /images/profile.png 即可
-  name             : "Hang Chen 陈杭"
+  name             : "Hang Chen (陈杭)"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate student in Electronic Information Engineering, Fuzhou University (Class of 2024)"
   location         : "Fuzhou, China"
