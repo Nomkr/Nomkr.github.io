@@ -1,0 +1,7 @@
+# 顶部导航栏顺序。改这里即改顶部菜单；删除某条即不在顶部显示。
+main:
+  - title: "Home"
+    url: /
+
+  - title: "CV"
+    url: /cv/
