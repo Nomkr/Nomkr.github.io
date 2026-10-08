@@ -1,19 +1,32 @@
 # 顶部导航栏顺序。改这里即改顶部菜单；删除某条即不在顶部显示。
+# title / url = 英文版；title_cn / url_cn = 中文版
 main:
   - title: "MAIN"
+    title_cn: "主页"
     url: /
+    url_cn: /cn/
 
   - title: "RESEARCH"
+    title_cn: "研究"
     url: /research/
+    url_cn: /cn/research/
 
   - title: "AWARDS"
+    title_cn: "奖项"
     url: /awards/
+    url_cn: /cn/awards/
 
   - title: "HOBBIES"
+    title_cn: "爱好"
     url: /hobbies/
+    url_cn: /cn/hobbies/
 
   - title: "BLOGS"
+    title_cn: "博客"
     url: https://hangchen.pages.dev/
+    url_cn: https://hangchen.pages.dev/
 
   - title: "中文"
+    title_cn: "English"
     url: /cn/
+    url_cn: /

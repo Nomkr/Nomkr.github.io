@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am **Hang Chen (陈杭)**, a third-year undergraduate student majoring in **Electronic Information Engineering** at [Fuzhou University](https://www.fzu.edu.cn/).
+Here is **Hang Chen (陈杭)**, a third-year undergraduate student majoring in **Electronic Information Engineering** at [Fuzhou University](https://www.fzu.edu.cn/).
 
 My current research focuses on the **objectification and digital evaluation of the rolling manipulation (Gun Fa) in Traditional Chinese Medicine (TCM) Tuina**. Specifically, I work on local 3D motion-trajectory reconstruction based on wearable inertial/pressure sensing and deep learning — making the movements of traditional Chinese massage techniques objectively measurable and quantifiable.
 
