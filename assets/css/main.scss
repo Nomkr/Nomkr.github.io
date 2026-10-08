@@ -36,3 +36,28 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* ==========================================================================
+   Custom: prominent headings, section separators, and key-content emphasis
+   (inspired by caihanlin.com)
+   ========================================================================== */
+.page__content {
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid var(--global-text-color);
+  }
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  strong {
+    border-bottom: 1px dotted var(--global-text-color);
+  }
+  a strong {
+    border-bottom: none;
+  }
+}
