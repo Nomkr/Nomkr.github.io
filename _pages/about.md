@@ -15,8 +15,4 @@ This project is supported by the Undergraduate Research Training Program and is 
 
 I have previously won several national-level awards in major robotics and embedded-systems competitions (including RoboMaster).
 
-I am always open to academic discussions and exploring collaboration opportunities. Feel free to reach me by email at **[832401103@fzu.edu.cn](mailto:832401103@fzu.edu.cn)** or on WeChat at **a1896588974**.
-
-## News
-
-- **[Month Year]** — [add a news item, e.g., award / project / competition].
+You can contact me by email at **[832401103@fzu.edu.cn](mailto:832401103@fzu.edu.cn)** or on WeChat at **a1896588974**.
