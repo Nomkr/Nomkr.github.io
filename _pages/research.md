@@ -14,6 +14,7 @@ The rolling manipulation (Ding's rolling method) is a representative technique i
 ### Method
 
 - **Wearable sensing**: dual MPU6050 inertial sensors (back of hand + wrist) and a 48-channel thin-film pressure array, STM32 MCU, Bluetooth transmission.
+- **Host computer**: a Unity-based acquisition host program handling serial communication and binary data parsing, real-time display of the pressure heatmap and hand pose, and synchronized multi-stream data logging. Companion Python scripts perform sensor calibration, stereo visual ground truth, and time synchronization.
 - **Visual ground truth**: a stereo camera with ArUco markers provides 3D hand position and pose ground truth via calibration and triangulation (baseline 64.79 mm, static accuracy 0.19 mm).
 - **Deep learning**: reconstructs the hand's 3D trajectory from IMU + pressure signals. Training uses the visual ground truth, while deployment only requires the wearable sensors — no camera or motion-capture system needed.
 
