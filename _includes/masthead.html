@@ -21,12 +21,9 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            {% if link_url == '/' %}
-              {% assign is_selected = false %}
-            {% elsif link_url == '/cn/' %}
-              {% assign is_selected = page.url == '/cn/' %}
-            {% else %}
-              {% assign is_selected = page.url contains link_url %}
+            {% assign is_selected = false %}
+            {% if link_url != '/' and page.url == link_url %}
+              {% assign is_selected = true %}
             {% endif %}
             <li class="masthead__menu-item {% if is_selected %}selected{% endif %}">
               <a href="{{ domain }}{{ link_url }}">{{ link_title }}</a>
