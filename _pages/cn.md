@@ -2,6 +2,7 @@
 permalink: /cn/
 title: "关于我"
 author_profile: true
+lang: cn
 ---
 
 我是**陈杭（Hang Chen）**，福州大学电子信息工程专业三年级本科生。
