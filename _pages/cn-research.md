@@ -19,7 +19,7 @@ lang: cn
 - **视觉真值**：双目相机 + ArUco 标记，经标定与三角化获得手部三维位置与姿态真值（基线 64.79 mm，静态精度 0.19 mm）。
 - **深度学习**：以 IMU + 压力信号为输入，重建手部三维轨迹；训练用视觉真值，部署只需可穿戴传感器，不依赖相机与动作捕捉系统。
 
-<img src="{{ '/images/unity.jpg' | relative_url }}" alt="Unity 上位机界面" style="width: 50%;">
+<img src="{{ '/images/unity.jpg' | relative_url }}" alt="Unity 上位机界面" style="width: 60%;">
 
 *Unity 上位机采集界面（压力热力图 / 姿态实时显示）*
 
