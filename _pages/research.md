@@ -18,7 +18,7 @@ The rolling manipulation (Ding's rolling method) is a representative technique i
 - **Visual ground truth**: a stereo camera with ArUco markers provides 3D hand position and pose ground truth via calibration and triangulation (baseline 64.79 mm, static accuracy 0.19 mm).
 - **Deep learning**: reconstructs the hand's 3D trajectory from IMU + pressure signals. Training uses the visual ground truth, while deployment only requires the wearable sensors — no camera or motion-capture system needed.
 
-<img src="{{ '/images/unity.jpg' | relative_url }}" alt="Unity host computer" style="width: 60%;">
+<img src="{{ '/images/unity.jpg' | relative_url }}" alt="Unity host computer" style="width: 75%;">
 
 *Unity host computer interface*
 
