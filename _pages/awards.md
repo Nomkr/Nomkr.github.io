@@ -33,4 +33,4 @@ author_profile: true
 
 ![My works]({{ '/images/works.jpg' | relative_url }})
 
-![Running]({{ '/images/running.jpg' | relative_url }})
+![Competition]({{ '/images/competition.jpg' | relative_url }})
