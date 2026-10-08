@@ -18,6 +18,10 @@ The rolling manipulation (Ding's rolling method) is a representative technique i
 - **Visual ground truth**: a stereo camera with ArUco markers provides 3D hand position and pose ground truth via calibration and triangulation (baseline 64.79 mm, static accuracy 0.19 mm).
 - **Deep learning**: reconstructs the hand's 3D trajectory from IMU + pressure signals. Training uses the visual ground truth, while deployment only requires the wearable sensors — no camera or motion-capture system needed.
 
+<img src="{{ '/images/unity.jpg' | relative_url }}" alt="Unity host computer" style="width: 50%;">
+
+*Unity host computer interface*
+
 ### Contributions
 
 1. Quantifies the correctness of a TCM manipulation into measurable metrics — forward/return rolling angle, force ratio, frequency, and contact-point slip distance.
@@ -28,3 +32,7 @@ The rolling manipulation (Ding's rolling method) is a representative technique i
 ### Current Progress
 
 Completed sensor calibration, stereo camera calibration, accuracy verification (static ≤0.2 mm, displacement ≤1 mm), and camera–IMU time synchronization (<10 ms). Feasibility data collection and network training are in progress.
+
+<img src="{{ '/images/trajectory.jpg' | relative_url }}" alt="Simulated trajectory" style="width: 50%;">
+
+*Simulated visual trajectory reconstruction of the hypothenar rolling*
