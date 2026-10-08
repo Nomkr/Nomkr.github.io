@@ -9,5 +9,8 @@ main:
   - title: "AWARDS"
     url: /awards/
 
+  - title: "HOBBIES"
+    url: /hobbies/
+
   - title: "BLOGS"
     url: https://hangchen.pages.dev/
