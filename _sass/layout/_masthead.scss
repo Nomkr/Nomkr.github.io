@@ -71,3 +71,8 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* 让第一个导航项（MAIN）与下方正文（article）左对齐 */
+.masthead__menu-item--lg + .masthead__menu-item {
+  margin-left: 5em;
+}
