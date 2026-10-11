@@ -11,6 +11,10 @@ author_profile: true
 
 The rolling manipulation (Ding's rolling method) is a representative technique in Traditional Chinese Medicine (TCM) Tuina. However, traditional teaching relies on hands-on experience passed down from masters. Whether a movement is performed correctly — the forward-rolling angle, applied force, frequency, and whether the contact point stays anchored — lacks objective, quantitative evaluation and cannot be measured with data.
 
+<img src="{{ '/images/shoutao.jpg' | relative_url }}" alt="Prototype of the smart Tuina glove" style="width: 60%;">
+
+*Prototype of the smart Tuina glove*
+
 ### Method
 
 - **Wearable sensing**: dual MPU6050 inertial sensors (back of hand + wrist) and a 48-channel thin-film pressure array, STM32 MCU, Bluetooth transmission.
