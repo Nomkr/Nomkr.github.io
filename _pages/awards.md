@@ -28,6 +28,7 @@ author_profile: true
 - Outstanding Athlete, 53rd & 54th Fuzhou University Sports Meet
 - **2026** — 38th place, Fuzhou University "12.9" Campus Run
 - **2025** — 43rd place, Fuzhou University "12.9" Campus Run
+- Half Marathon, Mass Level 2 Athlete (only 8 s short of Mass Level 1)
 
 ## Gallery
 
