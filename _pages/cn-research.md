@@ -38,6 +38,6 @@ lang: cn
 
 已完成传感器标定、双目标定、精度验证（静态 ≤0.2 mm、位移 ≤1 mm）、相机-IMU 时间同步（<10 ms），正在推进可行性数据采集与网络训练。
 
-<img src="{{ '/images/trajectory.jpg' | relative_url }}" alt="模拟轨迹" style="width: 50%;">
+<img src="{{ '/images/trajectory.png' | relative_url }}" alt="模拟轨迹" style="width: 50%;">
 
 *小鱼际㨰法纯视觉轨迹重建（模拟）*
