@@ -37,6 +37,6 @@ The rolling manipulation (Ding's rolling method) is a representative technique i
 
 Completed sensor calibration, stereo camera calibration, accuracy verification (static ≤0.2 mm, displacement ≤1 mm), and camera–IMU time synchronization (<10 ms). Feasibility data collection and network training are in progress.
 
-<img src="{{ '/images/trajectory.jpg' | relative_url }}" alt="Simulated trajectory" style="width: 50%;">
+<img src="{{ '/images/trajectory.png' | relative_url }}" alt="Simulated trajectory" style="width: 50%;">
 
 *Simulated visual trajectory reconstruction of the hypothenar rolling*
