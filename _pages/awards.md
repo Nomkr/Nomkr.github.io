@@ -15,6 +15,7 @@ author_profile: true
 
 ## Competitions
 
+- **Oct 2026** — First Prize (National), China Robot Competition
 - **Aug 2026** — Second Prize (National), China Robot Competition (Special Session)
 - **Mar 2026** — Second Prize, RoboMaster University League Competition
 - **Dec 2025** — Third Prize (Fujian Province), China Undergraduate Mathematical Contest in Modeling (CUMCM)
