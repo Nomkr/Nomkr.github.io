@@ -1,0 +1,18 @@
+- title: "Smart Tuina Glove"
+  title_cn: "智能推拿手套"
+  image: /images/shoutao.jpg
+  url: /research/
+  url_cn: /cn/research/
+
+- title: "Supercapacitor Module (Controller and Capacitor Pack) and RoboMaster Robot"
+  title_cn: "超级电容模组（控制器及电容组）与Robomaster机器人"
+  image: /images/works.jpg
+  image_position: "16% center"
+  url: /projects/supercapacitor/
+  url_cn: /cn/projects/supercapacitor/
+
+- title: "China Robot Competition – Intelligent Material Handling Robot"
+  title_cn: "中国机器人大赛-智能搬运机器人"
+  image: /images/intelligent-transport-robot.jpg
+  url: /projects/intelligent-transport-robot/
+  url_cn: /cn/projects/intelligent-transport-robot/

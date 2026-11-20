@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 title: "About me"
 author_profile: true
@@ -7,12 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Here is **Hang Chen (陈杭)**, a third-year undergraduate student majoring in **Electronic Information Engineering** at [Fuzhou University](https://www.fzu.edu.cn/).
+I'm **Hang Chen (陈杭)**, a third-year undergraduate studying Electronic Information Engineering at [Fuzhou University](https://www.fzu.edu.cn/). I expect to graduate in 2028. My interests include wearable sensing, embedded systems, human motion measurement, and embodied intelligence.
 
-My current research focuses on the **objectification and digital evaluation of the rolling manipulation (Gun Fa) in Traditional Chinese Medicine (TCM) Tuina**. Specifically, I work on local 3D motion-trajectory reconstruction based on wearable inertial/pressure sensing and deep learning — making the movements of traditional Chinese massage techniques objectively measurable and quantifiable.
+My research focuses on **objective measurement and digital assessment of the rolling technique (Gun Fa) in traditional Chinese Tuina**. I use wearable inertial and pressure sensing and deep learning to reconstruct local 3D motion trajectories and quantify the movement. After a one-time calibration for the wearer, the model can estimate relative 3D trajectories offline using only IMU data.
 
-This project is supported by the Undergraduate Research Training Program and is progressing steadily, with preliminary results expected soon. I hope to continue working in this direction while remaining open to other research areas.
+I have received multiple national awards in robotics and embedded systems competitions, including first and second prizes.
 
-I have previously won several national-level awards in major robotics and embedded-systems competitions (including RoboMaster).
-
-You can contact me by email at **[832401103@fzu.edu.cn](mailto:832401103@fzu.edu.cn)** or on WeChat at **a1896588974**.
+Feel free to contact me at [**832401103@fzu.edu.cn**](mailto:832401103@fzu.edu.cn) or on WeChat at **a1896588974**.

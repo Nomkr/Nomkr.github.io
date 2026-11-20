@@ -72,7 +72,23 @@
   /* No need to repeat pointer-events and cursor here */
 }
 
-/* 让第一个导航项（MAIN）与下方正文（article）左对齐 */
-.masthead__menu-item--lg + .masthead__menu-item {
+.masthead--home {
+  @include breakpoint($large) {
+    .masthead__menu {
+      container-type: inline-size;
+    }
+
+    .visible-links > .masthead__menu-item--lg {
+      // Match the article's two-column offset and half-column prefix.
+      min-width: (span(2.5 of 12 wide) / 1%) * 1cqw;
+    }
+
+    .visible-links > .masthead__menu-item--lg + .masthead__menu-item > a {
+      margin-left: 0;
+    }
+  }
+}
+
+.masthead:not(.masthead--home) .masthead__menu-item--lg + .masthead__menu-item {
   margin-left: 6em;
 }

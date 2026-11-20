@@ -1,0 +1,19 @@
+---
+layout: single
+---
+
+<div class="home-intro">
+  <img class="home-intro__photo" src="{{ '/images/robomaster-portrait.png' | relative_url }}"
+       width="688" height="842" decoding="async"
+       alt="{% if page.lang == 'cn' %}陈杭与 RoboMaster 机器人合影{% else %}Hang Chen beside a RoboMaster robot{% endif %}">
+  <div class="home-intro__text">
+    {{ content }}
+  </div>
+</div>
+
+{% include home-projects.html %}
+
+{% if page.lang == 'cn' %}
+  <hr>
+  <p><a href="{{ '/' | relative_url }}">切换回英文版 English</a></p>
+{% endif %}

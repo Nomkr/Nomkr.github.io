@@ -1,12 +1,16 @@
 {% include base_path %}
-<div class="masthead">
+{% assign is_home = false %}
+{% if page.url == '/' or page.url == '/index.html' or page.url == '/cn/' %}
+  {% assign is_home = true %}
+{% endif %}
+<div class="masthead{% if is_home %} masthead--home{% endif %}">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if is_home %}selected{% endif %}">
+            <a href="{{ base_path }}/{% if page.lang == 'cn' %}cn/{% endif %}">{{ site.title }}</a>
           </li>
           {% for link in site.data.navigation.main %}
             {% if page.lang == 'cn' %}
@@ -21,7 +25,11 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link_url and link_url != '/' %}selected{% endif %}">
+            {% assign is_selected = false %}
+            {% if link_url != '/' and page.url == link_url %}
+              {% assign is_selected = true %}
+            {% endif %}
+            <li class="masthead__menu-item {% if is_selected %}selected{% endif %}">
               <a href="{{ domain }}{{ link_url }}">{{ link_title }}</a>
             </li>
           {% endfor %}

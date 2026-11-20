@@ -24,12 +24,16 @@ author:
   # Biographic information
   avatar           : "profile.png"    # 头像图片：替换 /images/profile.png 即可
   name             : "Hang Chen (陈杭)"
+  name_cn          : "陈杭（Hang Chen）"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate student in Electronic Information Engineering, Fuzhou University (Class of 2024)"
+  bio_cn           : "福州大学电子信息工程专业本科生（2024级）"
   location         : "Fuzhou, China"
+  location_cn      : "中国福州"
   employer         : "Fuzhou University"
+  employer_cn      : "福州大学"
   uri              : "https://hangchen.pages.dev/"   # 个人博客
-  email            : "832401103@fzu.edu.cn" #学校邮箱账号
+  email            : # 邮箱显示在首页正文
 
   # 学术网站（没有就留空，留空则不显示对应图标）
   academia         : # URL

@@ -2,7 +2,7 @@
 
 基于 [academicpages](https://github.com/academicpages/academicpages.github.io)（Jekyll + Minimal Mistakes 主题）搭建的个人主页，风格与 [GuangLun2000.github.io](https://guanglun2000.github.io/) 和 [xiaotan-git.github.io](https://xiaotan-git.github.io/) 一致。
 
-当前包含三个页面：**Home（关于我）**、**Research（研究）**、**CV（简历）**。暂时没有 Publication 页面（以后有论文了可按第四节的说明加回）。
+网站包含中英文首页、研究和项目介绍、奖项与爱好页面。暂时没有 Publication 页面（以后有论文了可按第四节的说明加回）。
 
 ## 一、需要改哪些文件（重点）
 
@@ -12,7 +12,6 @@
 | `_data/navigation.yml` | 顶部菜单（一般不用动） |
 | `_pages/about.md` | 首页：自我介绍、研究方向、News |
 | `_pages/research.md` | 研究项目 |
-| `_pages/cv.md` | 教育经历、科研经历、荣誉、技能 |
 | `images/profile.png` | 你的头像照片（正方形，替换这个文件即可） |
 
 > 打开这几个文件，把所有 `[方括号]`、`Your Name`、`yourusername`、`XXX University` 之类的占位文字替换成你自己的信息即可。`_config.yml` 里带 `TODO` 注释的几行尤其要改。

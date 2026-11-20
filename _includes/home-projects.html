@@ -1,0 +1,21 @@
+<section class="home-projects" aria-labelledby="home-projects-title">
+  <h2 id="home-projects-title">{% if page.lang == 'cn' %}项目展示{% else %}Selected Projects{% endif %}</h2>
+  <div class="home-projects__grid">
+    {% for project in site.data.home_projects %}
+      {% assign project_title = project.title %}
+      {% assign project_url = project.url %}
+      {% if page.lang == 'cn' %}
+        {% assign project_title = project.title_cn %}
+        {% assign project_url = project.url_cn %}
+      {% endif %}
+      <a class="home-projects__card" href="{{ project_url | relative_url }}">
+        {% if project.image %}
+          <img class="home-projects__image" src="{{ project.image | relative_url }}" alt="" loading="lazy"{% if project.image_position %} style="object-position: {{ project.image_position }}"{% endif %}>
+        {% else %}
+          <span class="home-projects__image home-projects__image--pending" aria-hidden="true">{% if page.lang == 'cn' %}项目资料整理中{% else %}Project materials forthcoming{% endif %}</span>
+        {% endif %}
+        <span class="home-projects__title">{{ project_title | escape }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

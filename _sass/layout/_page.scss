@@ -107,6 +107,91 @@
   }
 }
 
+.home-intro {
+  display: grid;
+  gap: 1.25rem;
+
+  @include breakpoint($medium) {
+    display: flow-root;
+  }
+}
+
+.home-intro__text {
+  grid-row: 1;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.home-intro__photo {
+  display: block;
+  grid-row: 2;
+  justify-self: center;
+  width: 100%;
+  max-width: 14rem;
+  height: auto;
+  border-radius: $border-radius;
+
+  @include breakpoint($medium) {
+    float: right;
+    width: 32%;
+    margin: 0 0 0.75rem 1.25rem;
+  }
+}
+
+.home-projects__grid {
+  display: grid;
+  gap: 1rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.page__content a.home-projects__card {
+  display: block;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  color: var(--global-text-color);
+  text-decoration: none;
+
+  &:focus-visible {
+    outline: 2px solid var(--global-text-color);
+    outline-offset: 3px;
+  }
+
+  &:hover .home-projects__title,
+  &:focus-visible .home-projects__title {
+    text-decoration: underline;
+  }
+}
+
+.home-projects__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: $border-radius $border-radius 0 0;
+}
+
+.home-projects__image--pending {
+  display: grid;
+  place-items: center;
+  padding: 0.75rem;
+  background-color: var(--global-footer-bg-color);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.home-projects__title {
+  display: block;
+  padding: 0.75rem;
+  font-weight: 700;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
@@ -398,4 +483,25 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.supercapacitor-robots {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.supercapacitor-robots figure {
+  display: block;
+  margin: 0;
+}
+
+.supercapacitor-robots img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 6 / 7;
+  object-fit: contain;
+  margin-bottom: 0.5em;
 }

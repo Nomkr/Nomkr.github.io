@@ -7,6 +7,7 @@ author_profile: true
 
 ## Scholarships
 
+- **Nov 2026** — Qingxue Scholarship (Academic and Competition Category, College Level)
 - **Oct 2026** — First Prize, Fuzhou University Comprehensive Scholarship (Top 2%)
 - **Jun 2026** — Best Course Project Scholarship (Ranked 1st)
 - **Apr 2026** — First Prize, Fuzhou University Comprehensive Scholarship (Top 2%)
@@ -15,6 +16,7 @@ author_profile: true
 
 ## Competitions
 
+- **Oct 2026** — First Prize (National), China Robot Competition
 - **Aug 2026** — Second Prize (National), China Robot Competition (Special Session)
 - **Mar 2026** — Second Prize, RoboMaster University League Competition
 - **Dec 2025** — Third Prize (Fujian Province), China Undergraduate Mathematical Contest in Modeling (CUMCM)
@@ -28,9 +30,4 @@ author_profile: true
 - Outstanding Athlete, 53rd & 54th Fuzhou University Sports Meet
 - **2026** — 38th place, Fuzhou University "12.9" Campus Run
 - **2025** — 43rd place, Fuzhou University "12.9" Campus Run
-
-## Gallery
-
-![My works]({{ '/images/works.jpg' | relative_url }})
-
-![Competition]({{ '/images/competition.jpg' | relative_url }})
+- Half Marathon, Mass Level 2 Athlete (only 8 s short of Mass Level 1)
