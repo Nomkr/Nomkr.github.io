@@ -9,7 +9,7 @@ author_profile: true
 
 My teammates and I built an autonomous robot for a simulated sports meet. It had to sort randomly arranged objects by color, deliver them to designated areas, and stack objects of the same color but different shapes. It also had to place first-, second-, and third-place trophies on podiums of different heights. Both tasks required the robot to navigate to each target and align itself accurately for pickup and placement.
 
-<figure>
+<figure style="width: 95%; margin-inline: auto;">
   <video controls playsinline preload="metadata" aria-label="Intelligent material handling robot competition footage" style="display: block; width: 100%; height: auto;">
     <source src="{{ '/assets/video/transport-robot-competition.mp4' | relative_url }}" type="video/mp4">
   </video>

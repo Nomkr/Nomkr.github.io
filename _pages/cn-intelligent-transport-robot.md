@@ -10,7 +10,7 @@ lang: cn
 
 我与队友共同开发了一台面向模拟运动会场景的自主搬运机器人。它需要把随机排列、形状各异的物块按颜色送入指定区域，将同色但形状不同的物块叠放起来，还要将冠、亚、季军奖杯放到不同高度的领奖台上。两项任务都要求机器人自主行驶到目标附近，准确对准后再完成取放。
 
-<figure>
+<figure style="width: 95%; margin-inline: auto;">
   <video controls playsinline preload="metadata" aria-label="智能搬运机器人比赛实录" style="display: block; width: 100%; height: auto;">
     <source src="{{ '/assets/video/transport-robot-competition.mp4' | relative_url }}" type="video/mp4">
   </video>
