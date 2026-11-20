@@ -72,7 +72,7 @@
   /* No need to repeat pointer-events and cursor here */
 }
 
-.masthead--home {
+.masthead {
   @include breakpoint($large) {
     .masthead__menu {
       container-type: inline-size;
@@ -87,8 +87,4 @@
       margin-left: 0;
     }
   }
-}
-
-.masthead:not(.masthead--home) .masthead__menu-item--lg + .masthead__menu-item {
-  margin-left: 6em;
 }
