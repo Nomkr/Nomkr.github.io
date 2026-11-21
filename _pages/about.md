@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm **Hang Chen (陈杭)**, a third-year undergraduate studying Electronic Information Engineering at [Fuzhou University](https://www.fzu.edu.cn/). I expect to graduate in 2028. My interests include wearable sensing, embedded systems, human motion measurement, and embodied intelligence.
+I'm **Hang Chen (陈杭)**, originally from Xianyou, Fujian. I'm a third-year undergraduate studying Electronic Information Engineering at [Fuzhou University](https://www.fzu.edu.cn/). I expect to graduate in 2028. My interests include wearable sensing, embedded systems, human motion measurement, and embodied intelligence.
 
 My research focuses on **objective measurement and digital assessment of the rolling technique (Gun Fa) in traditional Chinese Tuina**. I use wearable inertial and pressure sensing and deep learning to reconstruct local 3D motion trajectories and quantify the movement. After a one-time calibration for the wearer, the model can estimate relative 3D trajectories offline using only IMU data.
 
