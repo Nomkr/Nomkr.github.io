@@ -12,4 +12,4 @@ lang: cn
 
 我曾多次在机器人、嵌入式相关的比赛中获得国家级一等奖、二等奖等奖项。
 
-欢迎通过邮箱 [**832401103@fzu.edu.cn**](mailto:832401103@fzu.edu.cn) 或微信 **a1896588974** 与我联系。
+欢迎通过邮箱 [**hangchen@fzu.edu.cn**](mailto:hangchen@fzu.edu.cn) 或微信 **a1896588974** 与我联系。

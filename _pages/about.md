@@ -14,4 +14,4 @@ My research focuses on **objective measurement and digital assessment of the rol
 
 I have received multiple national awards in robotics and embedded systems competitions, including first and second prizes.
 
-Feel free to contact me at [**832401103@fzu.edu.cn**](mailto:832401103@fzu.edu.cn) or on WeChat at **a1896588974**.
+Feel free to contact me at [**hangchen@fzu.edu.cn**](mailto:hangchen@fzu.edu.cn) or on WeChat at **a1896588974**.
